@@ -12,11 +12,11 @@ app.use(express.json());
 
 // PostgreSQL pool
 const pool = new Pool({
-  user: process.env.DB_USER || 'healthchain_user',
-  password: process.env.DB_PASSWORD || 'secure_password_123',
-  host: process.env.DB_HOST || 'localhost', // use 'localhost' if DB is port-forwarded from Docker
-  port: Number(process.env.DB_PORT || 5432),
-  database: process.env.DB_NAME || 'health_chain_db',
+  user: process.env.DB_USER,
+  password: process.env.DB_PASSWORD,
+  host: process.env.DB_HOST,
+  port: Number(process.env.DB_PORT),
+  database: process.env.DB_NAME,
 });
 
 // basic root and health endpoints
