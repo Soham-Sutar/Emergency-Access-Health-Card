@@ -144,8 +144,6 @@ npm run dev
 ```
 Open [http://localhost:5173](http://localhost:5173) in your browser.
 
-> 📚 For a more detailed setup walkthrough, see [`README_SETUP.md`](./README_SETUP.md).
-
 ---
 
 ## 🎯 Usage Flow
@@ -195,10 +193,8 @@ Open [http://localhost:5173](http://localhost:5173) in your browser.
 ---
 
 ## 🤝 Contributing
-
 Contributions, issues, and feature requests are welcome!
 Feel free to fork the repository and submit a pull request.
-
 ---
 
 ## 📄 License
